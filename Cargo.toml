@@ -1,9 +1,13 @@
 [package]
 name = "superls"
 version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
 edition = "2018"
+description = "A CLI tool to visualize and grep directory structures."
 
+# Dependencies section
 [dependencies]
-walkdir = "2.3.2"
-clap = "3.0.0-beta.5"
-colored = "2.0"
+walkdir = "2"    # For walking through directories
+clap = "2"       # For parsing command-line arguments
+regex = "1"      # For regular expression matching (grep functionality)
+colored = "2"
